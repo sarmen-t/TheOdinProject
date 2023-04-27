@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type = "text/javascript" src="script.js"></script>
-    <title>Page Title</title>
+    <script defer type = "text/javascript" src="script.js"></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type = "button" onclick = "runGame()" value = "Play">  
+    <div id="game">
+        <h1>Rock Paper Scissors</h1>
+        <div class="buttons">    
+            <button class="choice" id="rock">Rock</button> 
+            <button class="choice" id="paper">Paper</button> 
+            <button class="choice" id="scissors">Scissors</button> 
+        </div>
+        <div>
+            <h2 id="roundWinner"> Round Winner:</h2>
+            <h2 id="playerPoints"> Player Points:</h2>
+            <h2 id="computerPoints"> Computer Points:</h2>
+        </div>
+    </div>
+    <div>
+        <button onclick="reset()">Reset</button>
+    </div>
 </body>
 </html>
+
+

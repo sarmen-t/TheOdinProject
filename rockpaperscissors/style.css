@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(173, 212, 224);
+}
+
+button {
+    font-size: 20px; 
+    margin: 50px; 
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(156, 240, 255);
+}
+
+div {
+    text-align: center
+}
+
+h1 {
+    text-align: center
+}
+
+div.buttons {
+    padding: 50px 50px
+}
